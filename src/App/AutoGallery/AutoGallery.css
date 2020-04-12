@@ -1,0 +1,11 @@
+.images{
+    display:block;
+    height: 97vh;
+    margin:10px auto;
+    transition-duration: 0.2s;
+}
+
+.images:hover{
+    height:100vh;
+    margin:0 auto;
+}

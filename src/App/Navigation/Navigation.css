@@ -1,0 +1,23 @@
+#nav {
+    position: absolute;
+    top:0;
+    font-size: 12px;
+    transform: translate(0, -50%);
+    margin-top: 50vh;
+}
+
+li {
+    list-style-type:none;
+}
+
+li:hover {
+    background-color: black;
+    opacity:0.8;
+    border:none;
+    color:white;
+    width:25vh;
+    transition-duration: 0.4s;
+    cursor:pointer;
+    outline: none;
+    box-shadow: 0 22px 16px 0 rgba(0,0,0,0.24), 0 7px 50px 0 rgba(0,0,0,0.19);
+}
