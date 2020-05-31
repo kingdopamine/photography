@@ -7,7 +7,7 @@ class Navigation extends React.Component {
 
 
     render(){
-
+    
         return(
             <div id="nav">
                 <ul>

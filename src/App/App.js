@@ -3,14 +3,15 @@ import React from 'react';
 import './App.css';
 
 import AutoGallery from './AutoGallery/AutoGallery';
-import Navigation from './Navigation/Navigation';
+//import Navigation from './Navigation/Navigation';
 
 class App extends React.Component{
   render(){
+   
     return (
       <div className="App">
         <AutoGallery/>
-        <Navigation/>
+        {/*<Navigation/>*/}
       </div>
     );
   }
@@ -18,3 +19,4 @@ class App extends React.Component{
 }
 
 export default App;
+document.oncontextmenu = new Function("return false;");
