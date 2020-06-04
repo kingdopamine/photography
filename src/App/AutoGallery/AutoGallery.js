@@ -22,15 +22,15 @@ import lenticular5 from '../../Portfolio images/Lenticular/Dead-Robin-animation.
 //import lenticular6 from '../../Portfolio images/Lenticular/Dog-Skull-animation.gif';
 import lenticular7 from '../../Portfolio images/Lenticular/Pigeon-60cm-animation.gif';
 
-import nishika2 from '../../Portfolio images/Nishika/alice.mp4';
-import nishika3 from '../../Portfolio images/Nishika/botcwfinal.mp4';
-import nishika4 from '../../Portfolio images/Nishika/Debora + Suan.mp4';
-import nishika5 from '../../Portfolio images/Nishika/Drake Night.mp4';
-import nishika6 from '../../Portfolio images/Nishika/Fabulous.mp4';
-import nishika7 from '../../Portfolio images/Nishika/Karaoke.mp4';
-import nishika8 from '../../Portfolio images/Nishika/kinky dog.mp4';
+import nishika2 from '../../Portfolio images/Nishika/alice.mov';
+import nishika3 from '../../Portfolio images/Nishika/botcwfinal.mov';
+import nishika4 from '../../Portfolio images/Nishika/Debora + Suan.mov';
+import nishika5 from '../../Portfolio images/Nishika/Drake Night.mov';
+import nishika6 from '../../Portfolio images/Nishika/Fabulous.mov';
+import nishika7 from '../../Portfolio images/Nishika/Karaoke.mov';
+import nishika8 from '../../Portfolio images/Nishika/kinky dog.mov';
 
-import profile from '../../Portfolio images/IMG_6769.JPG'
+import profile from '../../Portfolio images/IMG_6769.jpg'
 
 
 
@@ -284,7 +284,7 @@ class AutoGallery extends React.Component {
             return (
                 <div>
                     <video controls loop autoPlay className="video" >
-                    <source src={this.state.nishika[this.state.vidcounter]} type="video/mp4" alt="Nishika N8000"></source>
+                    <source src={this.state.nishika[this.state.vidcounter]} type="video/mov" alt="Nishika N8000"></source>
                     </video>
                     <div id="next" onClick={()=>{this.nextVideo()}}>Next</div>
                 </div>
