@@ -22,3 +22,18 @@
     margin-left: 30vw;
     cursor: pointer;
 }
+
+@media(max-width:499px){
+    .video {
+        
+        margin:40vh 50vw;
+    }
+
+    #nextVideo{
+        margin-top: 82.5vh;
+    }
+    
+    #prevVideo{
+        margin-top: 82.5vh;
+    }
+}
