@@ -16,7 +16,7 @@ class Nishika extends React.Component{
     constructor(props){
         super(props)
         this.state={
-            movies:[mov1,mov2,mov3,mov4,mov5,mov6,mov7],
+            movies:[mov1,"http://ormuxwater.com/MobterVideo.mp4",mov3,mov4,mov5,mov6,mov7],
             movieAlt:[
                 'nishika n8000 debora silva and xuan in shoreditch',
                 'nishika n8000 drake night at the white hart in new cross',
