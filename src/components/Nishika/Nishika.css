@@ -1,0 +1,24 @@
+.video {
+    position:relative;
+    display:inline-block;
+    max-height: 85vh;
+    max-width: 85vh;
+    transform: translate(-50%, -50%);
+    margin:50vh 50vw;
+}
+
+#nextVideo{
+    position: absolute;
+    transform: translate(-50%);
+    margin-top: 95vh;
+    margin-left: 70vw;
+    cursor: pointer;
+}
+
+#prevVideo{
+    position: absolute;
+    transform: translate(-50%);
+    margin-top: 95vh;
+    margin-left: 30vw;
+    cursor: pointer;
+}

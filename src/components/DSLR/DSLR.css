@@ -1,0 +1,13 @@
+.DSLRImages {
+    position: absolute;
+    max-height: 80vh;
+    max-width: 80vw;
+    transform: translate(-50%,-50%);
+    margin-left:50vw;
+    margin-top:50vh;
+    transition-duration: 0.2s;
+}
+
+.DSLRImages:hover{
+    max-height: 100vh;
+}

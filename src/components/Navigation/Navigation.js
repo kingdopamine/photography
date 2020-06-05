@@ -11,10 +11,10 @@ class Navigation extends React.Component {
         return(
             <div id="nav">
                 <ul>
-                    <li>Digital</li>
-                    <li>Nishka N8000 / Analogue</li>
-                    <li>Lenticular</li>
-                    <li>Contact / About Me</li>
+                    <li><a href="/">Digital</a></li>
+                    <li><a href="/nishika-n8000">Nishka N8000 / Analogue</a></li>
+                    <li><a href="/lenticular">Lenticular</a></li>
+                    <li><a href="/contact">Contact / About Me</a></li>
                 </ul>
             </div>
             
