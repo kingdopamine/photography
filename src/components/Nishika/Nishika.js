@@ -4,19 +4,20 @@ import './Nishika.css'
 
 import Navigation from '../Navigation/Navigation'
 
-import mov1 from './N8000/trx8boy8yny01.mp4'
-import mov2 from './N8000/Drake Night.mp4'
-import mov3 from './N8000/Karaoke.mp4'
-import mov4 from './N8000/Fabulous.mp4'
-import mov5 from './N8000/kinky dog.mp4'
-import mov6 from './N8000/alice.mp4'
-import mov7 from './N8000/botcwfinal.mp4'
 
 class Nishika extends React.Component{
     constructor(props){
         super(props)
         this.state={
-            movies:[mov1,"http://ormuxwater.com/MobterVideo.mp4",mov3,mov4,mov5,mov6,mov7],
+            movies:[
+                "https://s3.eu-west-2.amazonaws.com/jojo.photos.videos/Debora+%2B+Suan.mp4",
+                "https://s3.eu-west-2.amazonaws.com/jojo.photos.videos/Drake+Night.mp4",
+                "https://s3.eu-west-2.amazonaws.com/jojo.photos.videos/Karaoke.mp4",
+                "https://s3.eu-west-2.amazonaws.com/jojo.photos.videos/Fabulous.mp4",
+                "https://s3.eu-west-2.amazonaws.com/jojo.photos.videos/alice.mp4",
+                "https://s3.eu-west-2.amazonaws.com/jojo.photos.videos/kinky+dog.mp4",
+                "https://s3.eu-west-2.amazonaws.com/jojo.photos.videos/botcwfinal.mp4",
+            ],
             movieAlt:[
                 'nishika n8000 debora silva and xuan in shoreditch',
                 'nishika n8000 drake night at the white hart in new cross',
