@@ -10,7 +10,7 @@
 #nextVideo{
     position: absolute;
     transform: translate(-50%);
-    margin-top: 95vh;
+    margin-top: 92.5vh;
     margin-left: 70vw;
     cursor: pointer;
 }
@@ -18,7 +18,7 @@
 #prevVideo{
     position: absolute;
     transform: translate(-50%);
-    margin-top: 95vh;
+    margin-top: 92.5vh;
     margin-left: 30vw;
     cursor: pointer;
 }
