@@ -60,7 +60,7 @@ class Nishika extends React.Component{
                 <p id="nextVideo" onClick={this.n8000GalleryNext}>Next</p>
                 <p id="prevVideo" onClick={this.n8000GalleryPrev}>Prev</p>
                 <video controls loop autoPlay className="video" key={this.state.movies[0]}>
-                    <source src={this.state.movies[0]} type="video/mp4" alt={this.state.movieAlt[0]}/>
+                    <source src={this.state.movies[0]} type="video/MP4" alt={this.state.movieAlt[0]}/>
                 </video>
                 
             </div>
