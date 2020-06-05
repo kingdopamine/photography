@@ -4,7 +4,7 @@ import './Nishika.css'
 
 import Navigation from '../Navigation/Navigation'
 
-import mov1 from './N8000/Debora + Suan.mp4'
+import mov1 from './N8000/trx8boy8yny01.mp4'
 import mov2 from './N8000/Drake Night.mp4'
 import mov3 from './N8000/Karaoke.mp4'
 import mov4 from './N8000/Fabulous.mp4'
