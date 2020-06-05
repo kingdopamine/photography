@@ -2,7 +2,7 @@
     position:relative;
     display:inline-block;
     max-height: 85vh;
-    max-width: 85vh;
+    max-width: 85vw;
     transform: translate(-50%, -50%);
     margin:50vh 50vw;
 }
