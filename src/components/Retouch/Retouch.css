@@ -1,14 +1,14 @@
-.DSLRImages {
-    position: absolute;
+.gifs {
+    
     max-height: 80vh;
     max-width: 80vw;
     transform: translate(-50%,-50%);
     margin-left:50vw;
     margin-top:50vh;
+    margin-bottom: -40vh;
     transition-duration: 0.2s;
 }
 
-.DSLRImages:hover{
+.gifs:hover{
     max-height: 100vh;
 }
-

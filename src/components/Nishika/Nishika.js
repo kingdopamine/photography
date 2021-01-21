@@ -11,21 +11,21 @@ class Nishika extends React.Component{
         this.state={
             movies:[
                 "https://s3.eu-west-2.amazonaws.com/jojo.photos.videos/Debora+%2B+Suan.mp4",
-                "https://s3.eu-west-2.amazonaws.com/jojo.photos.videos/Drake+Night.mp4",
+                "https://s3.eu-west-2.amazonaws.com/jojo.photos.videos/Drake+Night.mp4"/*,
                 "https://s3.eu-west-2.amazonaws.com/jojo.photos.videos/Karaoke.mp4",
                 "https://s3.eu-west-2.amazonaws.com/jojo.photos.videos/Fabulous.mp4",
                 "https://s3.eu-west-2.amazonaws.com/jojo.photos.videos/alice.mp4",
                 "https://s3.eu-west-2.amazonaws.com/jojo.photos.videos/kinky+dog.mp4",
-                "https://s3.eu-west-2.amazonaws.com/jojo.photos.videos/botcwfinal.mp4",
+                "https://s3.eu-west-2.amazonaws.com/jojo.photos.videos/botcwfinal.mp4",*/
             ],
             movieAlt:[
                 'nishika n8000 debora silva and xuan in shoreditch',
-                'nishika n8000 drake night at the white hart in new cross',
+                'nishika n8000 drake night at the white hart in new cross'/*,
                 'nishika n8000 karaoke at the five bells in new cross',
                 'nishika n8000 kinky bdsm dog at london gay pride 2019',
                 'nishika n8000 london gay pride 2019',
                 'nishika n8000 alice',
-                'nishika n8000 oli walker blow out the cobwebs'
+                'nishika n8000 oli walker blow out the cobwebs'*/
             ]
         }
         this.n8000GalleryNext=this.n8000GalleryNext.bind(this)

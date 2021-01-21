@@ -2,6 +2,7 @@ import React from 'react';
 
 import './App.css';
 
+import Retouch from './components/Retouch/Retouch'
 import DSLR from './components/DSLR/DSLR'
 import Nishika from './components/Nishika/Nishika'
 import Lenticular from './components/Lenticular/Lenticular'
@@ -17,6 +18,9 @@ class App extends React.Component{
         <div className="App">
           <Switch>
             <Route exact path="/">
+              <Retouch/>
+            </Route>
+            <Route exact path="/Digital">
               <DSLR/>
             </Route>
             <Route exact path="/nishika-n8000">
