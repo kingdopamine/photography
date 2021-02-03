@@ -1,0 +1,29 @@
+.stillimg {
+    
+    max-height: 80vh;
+    max-width: 80vw;
+    transform: translate(-50%,-50%);
+    margin-left:50vw;
+    margin-top:50vh;
+    margin-bottom: -40vh;
+    transition-duration: 0.2s;
+}
+
+.stillimg:hover{
+    max-height: 100vh;
+}
+
+.stillgif {
+    
+    max-height: 80vh;
+    max-width: 35vw;
+    transform: translate(-50%,-50%);
+    margin-left:50vw;
+    margin-top:35vh;
+    margin-bottom: -15vh;
+    transition-duration: 0.2s;
+}
+
+.stillgif:hover{
+    max-height: 100vh;
+}

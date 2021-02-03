@@ -11,7 +11,8 @@ class Navigation extends React.Component {
         return(
             <div id="nav">
                 <ul>
-                    <li><a href="/">Photography/Retouching</a></li>
+                    <li><a href="/">People </a></li>
+                    <li><a href="/Still-life-and-product">Still Life / Product</a></li>
                     {/*<li><a href="/">Digital</a></li>*/}
                     <li><a href="/nishika-n8000">Nishka N8000 / Analogue</a></li>
                     {/*<li><a href="/lenticular">Lenticular</a></li>*/}

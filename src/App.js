@@ -3,10 +3,12 @@ import React from 'react';
 import './App.css';
 
 import Retouch from './components/Retouch/Retouch'
+import Stilllife from './components/Stilllife/Stilllife'
 import DSLR from './components/DSLR/DSLR'
 import Nishika from './components/Nishika/Nishika'
 import Lenticular from './components/Lenticular/Lenticular'
 import Contact from './components/Contact/Contact'
+
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
@@ -19,6 +21,9 @@ class App extends React.Component{
           <Switch>
             <Route exact path="/">
               <Retouch/>
+            </Route>
+            <Route exact path="/Still-life-and-product">
+              <Stilllife/>
             </Route>
             <Route exact path="/Digital">
               <DSLR/>
